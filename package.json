@@ -1,0 +1,32 @@
+{
+  "name": "wonderlangpark",
+  "version": "0.0.4",
+  "description": "Wonder Wonder Language Translate Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wonderlandpark/wonder-lang.git"
+  },
+  "keywords": [
+    "wonder",
+    "wonderbot",
+    "lang",
+    "language",
+    "translate",
+    "korean",
+    "wonderland",
+    "discord"
+  ],
+  "author": "wonderlandpark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wonderlandpark/wonder-lang/issues"
+  },
+  "homepage": "https://github.com/wonderlandpark/wonder-lang#readme",
+  "dependencies": {
+    "josa": "^3.0.1"
+  }
+}
