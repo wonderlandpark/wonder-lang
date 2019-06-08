@@ -18,7 +18,8 @@ npm install --save wonderlangpark
 Example Usage:
 ```js
 const wonder = require("wonderlangpark");
-wonder.towonder('')
+console.log(wonder.towonder('디스코드는 갓입니다'))
+// { input: '디스코드는 갓입니다.', output: '불화는 원더입니다.' }
 ```
 ## Docs
 https://lang.wonderbot.xyz
