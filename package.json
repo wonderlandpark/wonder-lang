@@ -1,6 +1,6 @@
 {
   "name": "wonderlangpark",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Wonder Wonder Language Translate Module",
   "main": "index.js",
   "scripts": {

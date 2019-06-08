@@ -31,8 +31,8 @@ exports.towonder = (string) => {
     Object.keys(kr_wonder).forEach(a=>{
         result = result.replace(new RegExp(a, 'gi'), kr_wonder[a])
     })
-    result = result.replace(/(을|를) /gi,'#{을} ').replace(/.(은|는) /gi,'#{은} ').replace(/.(이|가) /gi,'#{이} ').replace(/.(와|과) /gi,'#{와} ').replace(/.(이어|여) /gi,'#{여} ').replace(/.(으로|로) /gi,'#{로} ').replace(/.(이에요|예요) /gi,'#{이에요} ').replace(/.(이었|였|) /gi,'#{이었} ').replace(/.(아|야) /gi,'#{아} ')
-    obj.output = josa(result)
+    // result = result.replace(/(을|를) /gi,'#{을} ').replace(/(은|는) /gi,'#{은} ').replace(/(이|가) /gi,'#{이} ').replace(/(와|과) /gi,'#{와} ').replace(/(이어|여) /gi,'#{여} ').replace(/(으로|로) /gi,'#{로} ').replace(/(이었|였|) /gi,'#{이었} ').replace(/(아|야) /gi,'#{아} ') 
+    obj.output = josa(result.replace(/(을|를) /gi,'#{을} ').replace(/(은|는) /gi,'#{은} ').replace(/(이|가) /gi,'#{이} ').replace(/(와|과) /gi,'#{와} ').replace(/(이어|여) /gi,'#{여} ').replace(/(으로|로) /gi,'#{로} ').replace(/(아|야) /gi,'#{아} ') )
     return obj
 }
 /**
@@ -49,7 +49,7 @@ exports.towonder = (string) => {
 //     Object.keys(wonder_kr).forEach(a=>{
 //         result = result.replace(new RegExp(a, 'gi'), wonder_kr[a])
 //     })
-//     result = result.replace(/(을|를) /gi,'#{을} ').replace(/.(은|는) /gi,'#{은} ').replace(/.(이|가) /gi,'#{이} ').replace(/.(와|과) /gi,'#{와} ').replace(/.(이어|여) /gi,'#{여} ').replace(/.(으로|로) /gi,'#{로} ').replace(/.(이에요|예요) /gi,'#{이에요} ').replace(/.(이었|였|) /gi,'#{이었} ').replace(/.(아|야) /gi,'#{아} ')
+//     result = result.replace(/(을|를) /gi,'#{을} ').replace(/(은|는) /gi,'#{은} ').replace(/(이|가) /gi,'#{이} ').replace(/(와|과) /gi,'#{와} ').replace(/(이어|여) /gi,'#{여} ').replace(/(으로|로) /gi,'#{로} ').replace(/(이에요|예요) /gi,'#{이에요} ').replace(/(이었|였|) /gi,'#{이었} ').replace(/(아|야) /gi,'#{아} ')
 //     obj.output = josa(result)
 //     return obj
 // }
