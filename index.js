@@ -1,10 +1,10 @@
 /**
  * @author wonderlandpark
- * @version 0.0.2
+ * @version 0.1.3
  * @license MIT
  * @copyright Copyright (c) 2019 wonderlandpark
- * @github https://github.com/wonderlandpark/wonder-lang
- * @see https://github.com/wonderlandpark/wonder-lang/master/README.md
+ * @github https://github.com/wonderlandpark/wonderlangpark
+ * @see https://github.com/wonderlandpark/wonderlangpark/master/README.md
  */
 
 'use static' // 엄격모드 진입

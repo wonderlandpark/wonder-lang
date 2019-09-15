@@ -6,7 +6,7 @@
 [![NPM version](https://badge.fury.io/js/wonderlangpark.svg)](https://www.npmjs.com/package/wonderlangpark)
 ![MIT](https://img.shields.io/dub/l/vibe-d.svg)
 [![ad](https://img.shields.io/npm/dt/wonderlangpark.svg)](https://www.npmjs.com/package/wonderlangpark)
-[![Discord](https://discordapp.com/api/guilds/512553485766492171/embed.png)](https://discord.gg/Dr8BZjX)
+[![Discord](https://discordapp.com/api/guilds/512553485766492171/embed.png)](https://invite.gg/wonderbot)
 
 
 ## Install
