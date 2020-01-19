@@ -1,6 +1,6 @@
 {
   "name": "wonderlangpark",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Wonder Wonder Language Translate Module",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,6 @@
   },
   "homepage": "https://github.com/wonderlandpark/wonder-lang#readme",
   "dependencies": {
-    "discord.js": "^11.5.1",
     "josa": "^3.0.1",
     "wonderlangpark": "^0.1.2"
   }
